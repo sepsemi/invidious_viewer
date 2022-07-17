@@ -1,0 +1,23 @@
+{
+    "default-instance": "inv.riverside.rocks",
+    "instances": [
+	"vid.puffyan.us",
+	"inv.riverside.rocks",
+	"invidious.osi.kr",
+	"y.com.sb",
+	"yt.artemislena.eu",
+	"invidious.flokinet.to",
+	"invidious.tiekoetter.com",
+	"invidious.sethforprivacy.com",
+	"inv.bp.projectsegfau.lt",
+	"invidious.projectsegfau.lt",
+	"inv.vern.cc",
+	"invidious.nerdvpn.de",
+	"invidious.slipfox.xyz",
+	"youtube.076.ne.jp",
+	"invidious.weblibre.org",
+	"invidious.esmailelbob.xyz",
+	"invidious.namazso.eu"
+    ],
+    "playlist": true
+}
