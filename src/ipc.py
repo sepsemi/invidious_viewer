@@ -8,9 +8,7 @@ class MpvIPCClient:
 
     def _connect_and_send(self, value):
         with socket.socket(socket.AF_UNIX) as sock:
-
             # connect to the ipc:unix_socket
-            
             try:
                 sock.connect(self.path)
             except ConnectionRefusedError:
