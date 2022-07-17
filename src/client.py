@@ -38,7 +38,6 @@ class YoutubeClient:
         for page in range(pages):
             tasks.append(self.loop.create_task(self.http.get_search_result(query, page=page + 1)))
         
-        print(len(tasks))
         for task in asyncio.as_completed(tasks):
             results.extend(await task)
 
